@@ -6,7 +6,7 @@ public class Menu {
                 
                 Nome:            %s
                 Tipo conta:      Corrente
-                Saldo inicial:   %d
+                Saldo inicial:   R$%d
                 ******************************
                 """;
 
@@ -25,5 +25,15 @@ public class Menu {
                 Digite a opção desejada:""";
 
         System.out.println(mensagem);
+    }
+
+    static void Receber() {
+        System.out.println("Digite o valor que deseja depositar");
+    }
+    static void Transferir() {
+        System.out.println("Digite o valor que deseja transferir");
+    }
+    static void Sair() {
+        System.out.println("Obrigado por usar nossos servisos!");
     }
 }
