@@ -27,11 +27,11 @@ public class Menu {
         System.out.println(mensagem);
     }
 
-    static void Receber() {
-        System.out.println("Digite o valor que deseja depositar");
+    static void Depositar() {
+        System.out.println("Digite o valor que deseja depositar:");
     }
     static void Transferir() {
-        System.out.println("Digite o valor que deseja transferir");
+        System.out.println("Digite o valor que deseja transferir:");
     }
     static void Sair() {
         System.out.println("Obrigado por usar nossos servisos!");
