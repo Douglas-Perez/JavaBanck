@@ -1,6 +1,6 @@
 public class Usuario {
     String nome;
-    int saldo;
+    double saldo;
 
     public Usuario(String Nome, int saldo) {
         this.nome = Nome;

@@ -6,7 +6,7 @@ public class Menu {
                 
                 Nome:            %s
                 Tipo conta:      Corrente
-                Saldo inicial:   R$%d
+                Saldo inicial:   R$%.2f
                 ******************************
                 """;
 
