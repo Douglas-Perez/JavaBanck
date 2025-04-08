@@ -7,6 +7,7 @@ public class Menu {
                 Nome:            %s
                 Tipo conta:      Corrente
                 Saldo inicial:   %d
+                ******************************
                 """;
 
         System.out.printf((mensagem) + "%n",cliente.nome,cliente.saldo);
@@ -14,6 +15,8 @@ public class Menu {
 
     static void ExibirEscolha() {
         String mensagem = """
+                Operações
+                
                 1- Consultar dados
                 2- Receber valor
                 3- Transferir valor
