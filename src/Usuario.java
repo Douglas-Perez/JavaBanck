@@ -7,10 +7,10 @@ public class Usuario {
         this.saldo = saldo;
     }
 
-    public void Sacar(int valor) {
+    public void Transferir(double valor) {
         this.saldo -= valor;
     }
-    public void Depositar(int valor) {
+    public void Depositar(double valor) {
         this.saldo += valor;
     }
 }
